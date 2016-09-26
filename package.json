@@ -1,0 +1,42 @@
+{
+  "name": "laravel-elixir-react-hmr",
+  "version": "1.0.0",
+  "description": "Laravel Elixir extension for using React with BrowserSync, HMR and React Hot Reload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawaniitd/laravel-elixir-react-hmr.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "webpack",
+    "browsersync",
+    "hrm",
+    "react",
+    "react hot loader"
+  ],
+  "author": "Pawan Samdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pawaniitd/laravel-elixir-react-hmr/issues"
+  },
+  "homepage": "https://github.com/pawaniitd/laravel-elixir-react-hmr#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.2",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
