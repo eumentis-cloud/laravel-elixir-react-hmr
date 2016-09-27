@@ -23,7 +23,7 @@ I am a self-learned programmer/developer and this is my first public package.
 At the moment, users cannot change or provide custom Webpack and BrowserSync configuration.
 
 ### Step 1 : Install
-```shell
+```bash
 npm i -D laravel-elixir-react-hmr
 ```
 ### Step 2 : Setup
@@ -32,14 +32,14 @@ npm i -D laravel-elixir-react-hmr
 require('laravel-elixir-react-hmr');
 ```
 Use just like any other Laravel Elixir tasks [i.e. mix.taskName(options)]
-```
+```javascript
 elixir(function(mix) {
     mix.react(options);
 });
 ```
 The config options are provided in the form of Javascript object.
 #### Options
-```Javascript
+```javascript
 // The values given below are the default values
 {
     // The URL of your Laravel dev server
@@ -63,7 +63,7 @@ The config options are provided in the form of Javascript object.
 
 ### Step 3 : Running
 To start the BrowserSync server
-```
+```bash
 gulp watch
 ```
 Open `http://localhost:3000` in your browser to load the app.
