@@ -25,7 +25,7 @@ At the moment, users cannot change or provide custom Webpack and BrowserSync con
 ```shell
 npm i -D laravel-elixir-react-hmr
 ```
-### Step 2 : Usage
+### Step 2 : Loading
 ```javascript
 // Add to gulpfile.js
 require('laravel-elixir-react-hmr');
@@ -59,6 +59,14 @@ The config options are provided in the form of Javascript object.
     host: ''
 }
 ```
+
+### Step 3 : Running
+To start the BrowserSync server
+```
+gulp watch
+```
+Open `http://localhost:3000` in your browser to load the app.
+*Does not work in IE*
 
 ## Future features
 * Custom Webpack config
