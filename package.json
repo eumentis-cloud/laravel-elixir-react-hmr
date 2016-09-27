@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-react-hmr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Laravel Elixir extension for using React with BrowserSync, HMR and React Hot Reload",
   "main": "index.js",
   "scripts": {

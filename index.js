@@ -20,10 +20,10 @@ const PATHS = {
 
 // For HMR and React Hot Loader
 const hmrEntries = [
-    // Webpack hot middleware
-    'webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr&timeout=20000&reload=true',
     // React hot loader
-    'react-hot-loader/patch'
+    'react-hot-loader/patch',
+    // Webpack hot middleware
+    'webpack-hot-middleware/client?http://localhost:3000'
 ];
 
 // Default extension configuration

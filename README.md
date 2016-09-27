@@ -1,6 +1,6 @@
 # laravel-elixir-react-hmr
 
-> Having issues with React Hot Loader, it's not working correctly.
+> Working demo : [laravel-elixir-react-hmr-demo](https://github.com/eumentis/laravel-elixir-react-hmr-demo)
 
 *This is for development only. Should not be used on production servers.*
 
@@ -17,8 +17,7 @@ I am a self-learned programmer/developer and this is my first public package.
 * Multiple input JS files supported (for multi-page application)
 * BrowserSync support (LiveReload non-JS assets, multi-device testing)
 * ES6 and React compilation using Babel
-* Webpack hot module replacement (LiveReload JS modules)
-* React Hot Loader 3 (LiveReload React components) 
+* Webpack hot module replacement and hot loading of React components (React Hot Loader 3)
 
 ## Usage
 At the moment, users cannot change or provide custom Webpack and BrowserSync configuration.
@@ -27,7 +26,7 @@ At the moment, users cannot change or provide custom Webpack and BrowserSync con
 ```shell
 npm i -D laravel-elixir-react-hmr
 ```
-### Step 2 : Loading
+### Step 2 : Setup
 ```javascript
 // Add to gulpfile.js
 require('laravel-elixir-react-hmr');
@@ -70,9 +69,15 @@ gulp watch
 Open `http://localhost:3000` in your browser to load the app.
 *Does not work in IE*
 
+## Notes
+* You need to add some wrapper to your root React component for hot reloading to work ([read details](https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915))
+   * Have a look at `/resources/assets/js/app.js` in the demo : [laravel-elixir-react-hmr-demo](https://github.com/eumentis/laravel-elixir-react-hmr-demo)
+   
+* Whenever you change CSS or PHP files BrowserSync will reload the page and the React state would be lost.
+
 ## Future features
+* Bundling JS for production
+* Hot Reload in BrowserSync
 * Custom Webpack config
 * Custom BrowserSync config
-* Bundling JS for production
-* Make an example app
 
