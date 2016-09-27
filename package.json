@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pawaniitd/laravel-elixir-react-hmr.git"
+    "url": "git+https://github.com/eumentis/laravel-elixir-react-hmr.git"
   },
   "keywords": [
     "laravel",
@@ -22,9 +22,9 @@
   "author": "Pawan Samdani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pawaniitd/laravel-elixir-react-hmr/issues"
+    "url": "https://github.com/eumentis/laravel-elixir-react-hmr/issues"
   },
-  "homepage": "https://github.com/pawaniitd/laravel-elixir-react-hmr#readme",
+  "homepage": "https://github.com/eumentis/laravel-elixir-react-hmr#readme",
   "dependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
