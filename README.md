@@ -1,5 +1,7 @@
 # laravel-elixir-react-hmr
 
+> Having issues with React Hot Loader, it's not working correctly.
+
 *This is for development only. Should not be used on production servers.*
 
 For one of my projects, I planned to use Laravel for backend and React for frontend. I decided to use Webpack for bundling all my JS files (to use features like [HMR](https://webpack.github.io/docs/hot-module-replacement.html
