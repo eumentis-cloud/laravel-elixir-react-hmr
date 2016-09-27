@@ -70,10 +70,10 @@ Open `http://localhost:3000` in your browser to load the app.
 *Does not work in IE*
 
 ## Notes
-* You need to add some wrapper to your root React component for hot reloading to work ([read details](https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915))
+* Wrapper must be added to the root React component for hot reloading to work ([read details](https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915))
    * Have a look at `/resources/assets/js/app.js` in the demo : [laravel-elixir-react-hmr-demo](https://github.com/eumentis/laravel-elixir-react-hmr-demo)
    
-* Whenever you change CSS or PHP files BrowserSync will reload the page and the React state would be lost.
+* Changes to PHP files will reload the page and the React state would be lost.
 
 ## Future features
 * Bundling JS for production
