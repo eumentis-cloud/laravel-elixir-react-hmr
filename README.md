@@ -77,7 +77,6 @@ Open `http://localhost:3000` in your browser to load the app.
 
 ## Future features
 * Bundling JS for production
-* Hot Reload in BrowserSync
 * Custom Webpack config
 * Custom BrowserSync config
 
