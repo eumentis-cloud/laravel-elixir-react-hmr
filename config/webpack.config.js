@@ -10,6 +10,10 @@ module.exports = {
     cache: true,
     debug: true,
 
+    resolve: {
+      extensions: ['', '.js', '.jsx']
+    },
+
     entry: {
 
     },
